@@ -1,0 +1,91 @@
+{
+    "key": "group_5e1dcd9030c1b",
+    "title": "Zusätzliche Daten",
+    "fields": [
+        {
+            "key": "field_5e1dcdada054c",
+            "label": "Jahr",
+            "name": "year",
+            "type": "text",
+            "instructions": "Jahreszahl eintragen",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": 2020,
+            "prepend": "",
+            "append": "",
+            "maxlength": 4
+        },
+        {
+            "key": "field_5e20bbbbe663c",
+            "label": "Erstes Featured Image",
+            "name": "post_thumbnail_1",
+            "type": "image",
+            "instructions": "Erstes Featured Image auswählen",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "medium",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_5e1dce42a054d",
+            "label": "Zweites Featured Image",
+            "name": "post_thumbnail_2",
+            "type": "image",
+            "instructions": "Zweites Featured Image auswählen",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "medium",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
+        ]
+    ],
+    "menu_order": 1,
+    "position": "side",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1579203961
+}

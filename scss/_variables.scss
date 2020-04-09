@@ -1,0 +1,26 @@
+$font-family: "Raleway", Helvetica, Arial, sans-serif;
+$font-weights: (
+  "regular": 400,
+  "medium": 500,
+  "bold": 700
+);
+$font-color: #1d1d1b;
+$font-sizes: (
+  "mobile-nav": 18px,
+  "mobile-title": 18px,
+  "mobile-sidebar": 12px,
+  "mobile-body": 14px,
+  "desk-body": 14px,
+  "desk-nav": 20px,
+  "desk-title": 30px
+);
+$media-queries: (
+  "sm": 576px,
+  "md": 768px,
+  "lg": 992px,
+  "xl": 1200px
+);
+$lspacing: (
+  "mobile": 6px,
+  "desktop": 10px
+);

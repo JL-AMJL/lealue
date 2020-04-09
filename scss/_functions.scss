@@ -1,0 +1,35 @@
+@function weight($weight-name) {
+  @return map-get($font-weights, $weight-name);
+}
+
+@function size($size-name) {
+  @return map-get($font-sizes, $size-name);
+}
+
+@function lspacing($lspacing-name) {
+  @return map-get($lspacing, $lspacing-name);
+}
+
+@mixin media-sm {
+  @media only screen and (min-width: map-get($map: $media-queries, $key: sm)) {
+    @content;
+  }
+}
+
+@mixin media-md {
+  @media only screen and (min-width: map-get($map: $media-queries, $key: md)) {
+    @content;
+  }
+}
+
+@mixin media-lg {
+  @media only screen and (min-width: map-get($map: $media-queries, $key: lg)) {
+    @content;
+  }
+}
+
+@mixin media-xl {
+  @media only screen and (min-width: map-get($map: $media-queries, $key: xl )) {
+    @content;
+  }
+}
